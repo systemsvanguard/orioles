@@ -1,0 +1,27 @@
+/* Portfolio site for fullstack developer Ryan Hunter | ryan@RyanHunter.org | GitHub handle : SystemsVanguard  */
+/* 0. Basic body styling */
+body {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* font-size: 1.3rem;  */
+    font-size: 120%;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather','Lato', Helvetica, Arial, sans-serif;
+}
+
+.navLogo {
+  font-weight:bold;
+  font-family: "Merriweather", Helvetica, sans-serif;
+}
+
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
